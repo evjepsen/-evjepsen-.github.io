@@ -1,0 +1,281 @@
+.introduction {
+	margin-top: 80px;
+	text-align: center;
+	padding: 60px;
+	margin-bottom: 20px;
+	color: #ED70A7;
+}
+
+h1 {
+	font-size: 2.8em;
+}
+
+/* produkjoner */
+.produkjoner{
+	text-align: center;
+	display: block;
+}
+
+.produkjoner h3{
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.produkjoner .col-sm-6{
+	width: 49%;
+	margin: 0.5%;
+	height: 350px;
+}
+
+.produkjoner .overlay{
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(147, 149, 152, 0.85);
+}
+
+	.produkjon1 {
+		background: url(../Fotos/paradisehotel.jpg);
+		width: 500px;
+		height: 300px;
+   		background-position: center center; 
+	}
+
+		.produkjon1:hover .overlay {
+		 	opacity: 1;
+		}
+
+	.produkjon2 {
+		background: url(../Fotos/annos2.jpg);
+		width: 500px;
+		height: 300px;
+		background-position: center center; 
+	}
+
+		.produkjon2:hover .overlay {
+		 	opacity: 1;
+		}
+
+	.produkjon3 {
+		background: url(../Fotos/toreny3.jpg);
+		width: 500px;
+		height: 300px;
+		background-position: top center; 
+	}
+
+		.produkjon3:hover .overlay {
+		 	opacity: 1;
+		}
+
+	.produkjon4 {
+		background: url(../Fotos/Enok_1.jpg);
+		width: 500px;
+		height: 300px;
+		background-position: top center; 
+	}
+
+		.produkjon4:hover .overlay {
+		 	opacity: 1;
+		}
+
+	.produkjon5 {
+		background: url(../Fotos/kongenavsjakk.jpg);
+		width: 500px;
+		height: 300px;
+		background-position: top center; 
+	}
+
+		.produkjon5:hover .overlay {
+		 	opacity: 1;
+		}
+
+	.produkjon6 {
+		background: url(../Fotos/remamma.jpg);
+		width: 500px;
+		height: 300px;
+		background-position: top center; 
+	}
+
+		.produkjon6:hover .overlay {
+		 	opacity: 1;
+		}
+
+.produkjoner .img__description{
+	 color: #fff;
+	 font-size: 14px;
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+	 -ms-transform: translate(-50%, -50%);
+	 overflow: scroll;
+}
+
+.produkjoner .img__description h3{
+	color: #ED70A7;
+	font-weight: 400;
+} 
+
+.produkjoner button{
+	padding: 20px;
+	font-size: 16px;
+	margin-top: 50px;
+	color: #ED70A7;
+	border: 1px solid #ED70A7;
+	background: none;
+	width: 400px;
+}
+
+.produkjoner button:hover {
+	color: #fff;
+	border: 1px solid #ED70A7;
+	background: #ED70A7;
+	width: 405px;
+}
+
+/* produkjonerGemt */
+.produkjonerGemt{
+	text-align: center;
+	display: block;
+}
+
+.produkjonerGemt h1 {
+	padding: 100px 5px 35px 5px;
+	color: #ED70A7;
+	font-size: 38px;
+}
+
+.produkjonerGemt h3{
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+
+.produkjonerGemt img{
+	width: 100%;
+	height: 100%;
+}
+
+.produkjonerGemt .col-sm-6{
+	width: 50%;
+	height: 350px;
+	width: 49%;
+	margin: 0.5%;
+}
+
+.produkjonerGemt .overlay{
+  	position: absolute;
+  	top: 0;
+  	bottom: 0;
+  	left: 0;
+  	right: 0;
+  	height: 100%;
+  	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: rgba(147, 149, 152, 0.85);
+}
+
+	.produkjon7 {
+		background: url(../Fotos/sofa.jpg);
+		width: 500px;
+		height: 300px;
+   		background-position: center center; 
+	}
+
+		.produkjon7:hover .overlay {
+		 	opacity: 1;
+		}
+
+	.produkjon8 {
+		background: url(../Fotos/AlleTid.jpg);
+		width: 500px;
+		height: 300px;
+		background-position: center center; 
+	}
+
+		.produkjon8:hover .overlay {
+		 	opacity: 1;
+		}
+
+	.produkjon9 {
+		background: url(../Fotos/diktaturet.jpg);
+		width: 500px;
+		height: 300px;
+		background-position: top center; 
+	}
+
+		.produkjon9:hover .overlay {
+		 	opacity: 1;
+		}
+
+	.produkjon10 {
+		background: url(../Fotos/dodenstjern.jpg);
+		width: 500px;
+		height: 300px;
+		background-position: top center; 
+	}
+
+		.produkjon10:hover .overlay {
+		 	opacity: 1;
+		}
+
+	.produkjon11 {
+		background: url(../Fotos/DetStore.jpg);
+		width: 500px;
+		height: 300px;
+		background-position: top center; 
+	}
+
+		.produkjon11:hover .overlay {
+		 	opacity: 1;
+		}
+
+	.produkjon12 {
+		background: url(../Fotos/andreasfarmen.jpg);
+		width: 500px;
+		height: 300px;
+		background-position: top center; 
+	}
+
+		.produkjon12:hover .overlay {
+		 	opacity: 1;
+		}
+
+.produkjonerGemt .img__description{
+	 color: #fff;
+	 font-size: 14px;
+	 position: absolute;
+	 top: 50%;
+	 left: 50%;
+	 transform: translate(-50%, -50%);
+	 -ms-transform: translate(-50%, -50%);
+	 overflow: scroll;
+}
+
+ .produkjonerGemt .img__description h3{
+	color: #ED70A7;
+	font-weight: 400;
+} 
+
+.produkjonerGemt button {
+	padding: 20px;
+	font-size: 16px;
+	margin-top: 50px;
+	color: #ED70A7;
+	border: 1px solid #ED70A7;
+	background: none;
+	width: 400px;
+}
+
+.produkjonerGemt button:hover {
+	color: #fff;
+	border: 1px solid #ED70A7;
+	background: #ED70A7;
+	width: 405px;
+}

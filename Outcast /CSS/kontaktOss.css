@@ -1,0 +1,21 @@
+body, html {
+	text-align: center;
+}
+
+.bliDeltaker {
+	margin-top: 140px;
+}
+
+iframe{
+	margin-top: 50px;
+}
+
+.map {
+	color: #ED70A7;
+	text-transform: uppercase;
+}
+
+form {
+	padding: 0;
+	margin: 0;
+}

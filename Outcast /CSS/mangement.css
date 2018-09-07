@@ -1,0 +1,82 @@
+.introduction {
+	margin-top: 60px;
+	text-align: center;
+	padding: 60px;
+	color: #ED70A7;
+}
+
+h1 {
+	font-size: 2.8em;
+}
+
+.kunder {
+	padding-top: 20px;
+}
+
+	.kunder .kunde {
+		min-height: 700px;
+		border: 2px dashed #ED70A7;
+		width: 80%;
+		display: block;
+		margin: auto;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.kunde a {
+		color: #ED70A7;
+		text-decoration: underline;
+		margin: 10px auto;
+		font-size: 17px;
+		text-transform: uppercase;
+		padding-bottom: 20px;
+	}
+
+	.kunde .text {
+		width: 60%;
+		margin-top: 60px; 		
+		display: block;
+		margin: 100px auto;
+		padding-bottom: 20px;
+	}
+
+	.kunde p {
+		padding-bottom: 20px;
+		font-size: 15px;
+		overflow: scroll;
+	}
+
+	.kunde h2{
+		text-align: center;
+		padding-bottom: 40px;
+		padding-top: 40px;
+		color: #ED70A7;
+	}
+
+	.kunde h2 {
+		text-transform: uppercase;
+	}
+
+	.kunde h3 {
+		padding-bottom: 20px;
+		color: #ED70A7;
+		text-align: center;å
+	}
+
+	.kunde img{
+		display: block;
+		margin: auto;
+		max-width: 50%;
+		min-width: 300px;
+		max-height: 500px;
+		margin-bottom: 20px;
+	}
+
+
+@media (min-width: 1500px) {
+/* nav */  
+	.kunde .text {
+		position: static;
+	}
+}
+
